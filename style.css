@@ -16,14 +16,65 @@
     display: flex;
     background-color: white;
     height: 75vh;
-    width: 50vw;
+    width: 55vw;
+    
 
 }
 
 #title {
 
     font-size: 50px;
+    color: white;
     font-style: italic;
+    position: absolute;
+    left:750px;
+
+
+}
+
+
+span {
+
+
+    display: inline;
+
+}
+
+
+#welcome{
+
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    
+    
+    
+
+
+}
+
+#uno {
+
+    position: relative;
+    top: 150px;
+    right: 39%;
+    font-size: 30px;
+    font-style: italic;
+    
+    
+    
+
+}
+
+
+.form-container {
+
+    display: flex;
+    position: relative;
+    top: 55%;
     
 
 
