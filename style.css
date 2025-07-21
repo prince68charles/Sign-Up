@@ -24,11 +24,11 @@
 
 .form-holder{
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    
     
     
     
@@ -41,7 +41,7 @@
     font-size: 50px;
     color: white;
     font-style: italic;
-    position: absolute;
+    position: relative;
     left:750px;
 
 
@@ -79,10 +79,6 @@
 
 .forms {
 
-
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     font-size: 18px;
    
 
