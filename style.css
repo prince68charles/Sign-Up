@@ -41,19 +41,21 @@
 
 
 }
-.form-holder {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 250px;
-    
-  
-   
 
+.top-right-pannel {
+
+
+    font-size: 38px;
+   color: black;
+   font-weight: bold;
+   font-style: italic;
 
 
 }
+
+
+
 
 #beer-form {
     
@@ -68,5 +70,35 @@ input {
     height: 25px;
     
 
+
+}
+
+
+.bottom-right-pannel {
+
+    position: relative;
+    top: 74%;
+    right: 35%;
+    font-size: 18px;
+    
+
+
+}
+
+.bottom-right-pannel button{
+
+
+    background-color: rgb(255, 153, 0);
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.bottom-right-pannel a {
+
+    color: rgb(255, 153, 0);
 
 }
