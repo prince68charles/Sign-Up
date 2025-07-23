@@ -61,11 +61,11 @@
     
     font-size: 20px;
     position: relative;
-    top: 25%;
+    top: 12%;
     left: 10%;
-
+    
+    
 }
-
 
 
 
@@ -73,6 +73,14 @@ input {
     
     height: 28px;
     
+
+
+}
+
+
+input:focus {
+
+    border: solid rgb(255, 153, 0);
 
 
 }
@@ -100,7 +108,22 @@ input {
 
     position: relative;
     top: 30px;
-    left: 50px;
+    
 
 
+
+
+}
+
+
+input:invalid {
+
+    border: solid red;
+
+}
+
+
+input:valid {
+
+    border: solid none;
 }

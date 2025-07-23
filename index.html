@@ -39,13 +39,17 @@
 
            <p>Win up to 2000 free beers!</p>
 
-            <form id="beer-form">
+           <p>Best Of Luck!</p>
+
+            <form id="beer-form" method="get">
 
                 <div>
 
                     <label for="fname">First Name:</label>
+                    
                     <input type="text" id="fname">
-
+                    
+                    
                     <label for="lname">Last Name:</label>
                     <input type="text" id="lname">
 
@@ -56,7 +60,7 @@
                 <div>
 
                     <label for="email">Email:</label>
-                    <input type="text" id="email">
+                    <input type="email" id="email">
 
                     <label for="phone">Phone Number:</label>
                     <input type="tel" id="phone">
@@ -69,15 +73,19 @@
                 <div>
 
                     <label for="password">Password:</label>
-                    <input type="password" id="password">
+                    <input type="password" id="password" minlength="8">
 
                     <label for="confirm">Confirm Password:</label>
-                    <input type="password" id="confirm">
+                    <input type="password" id="confirm" minlength="8">
 
 
 
                 </div>
                 
+                <br>
+
+                <br>
+
                 <button type="submit">Create Account</button>
 
                 <p>Already have account? <a href="#">Log-in</a></p>

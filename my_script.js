@@ -1,3 +1,5 @@
-const createAccount = document.querySelector(".create")
+const psword = document.querySelector("#password")
 
-const beerForm = document.getElementById("beer-form")
+const confirmPsword = document.querySelector("#confirm")
+
+
