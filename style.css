@@ -59,7 +59,11 @@
 
 #beer-form {
     
-    font-size: 18px;
+    font-size: 20px;
+    position: relative;
+    top: 25%;
+    left: 10%;
+
 }
 
 
@@ -67,29 +71,17 @@
 
 input {
     
-    height: 25px;
+    height: 28px;
     
 
 
 }
 
-
-.bottom-right-pannel {
+.top-right-pannel button{
 
     position: relative;
-    top: 74%;
-    right: 35%;
-    font-size: 18px;
-    
-
-
-}
-
-.bottom-right-pannel button{
-
-
     background-color: rgb(255, 153, 0);
-    padding: 15px 25px;
+    padding: 10px 80px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -97,8 +89,18 @@ input {
 
 }
 
-.bottom-right-pannel a {
+.top-right-pannel a {
 
     color: rgb(255, 153, 0);
+
+}
+
+
+.top-right-pannel p {
+
+    position: relative;
+    top: 30px;
+    left: 50px;
+
 
 }
